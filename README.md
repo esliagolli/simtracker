@@ -1,4 +1,15 @@
 ## Available Scripts
+I have chosen react js to develop this project as I am used to develop with this framework lately.
+I have chosen to use material ui library for ui elements as it offers a full set of ui elements needed, is customizable and responsive.
+I have used react-table library to manage the pagination and listing as it offers an easy and compatible way to work with data tables.
+I have used yup and react hook form as it offers a quick way to handle validation of inputs in form.
+
+I have assumed that this will not be a project just for one table but will have other data-tables also so thats why I have done a components' folder to handle different views of the project and Services folder to handle multiple API actions for different supposed views.
+
+What improvements I wish to make is to build a reusable component for data table with pagination and a more reusable, dynamic and configurable component for the popup. Supposing this one to be a bigger project with much more tables/views ect these 2 components I mentioned could be reused a lot in the project.
+
+This project could be deployed with the commands explained below. I would have chosen to create a docker container that would execute the build command for every new deployment automatically.
+I would have chosen a linux/ubuntu server for this project, install node js and npm + docker.
 
 In order to run this project after cloning will need first to:
 
